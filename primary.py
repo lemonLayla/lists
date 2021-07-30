@@ -1,5 +1,5 @@
-# name:
-# author:
+# name:layla
+# Date:7/27/2021
 
 # -------------------- Section 1 ------------------------- #
 # ------------------ List Creation ----------------------- #
@@ -15,6 +15,8 @@ print('Creating an Empty List' '\n')
 #   2. Print the lists.
 #
 # WRITE CODE BELOW
+listA = list()
+print(listA)
 
 
 print('\n' 'Creating a Pre-Populated List' '\n')
@@ -34,6 +36,17 @@ print('\n' 'Creating a Pre-Populated List' '\n')
 #
 # WRITE CODE BELOW
 integers = [1, 15, -4, -26, 34]
+floats = [2, 4.5, 0.5, 1, 3]
+boolean_values =[4==6, 2>5, 4<7]
+animals = ['frog', 'raccoon', 'rat']
+object = ['bowl', 'phone', 'book']
+print(integers)
+print(floats)
+print(boolean_values )
+print(animals)
+print(object)
+
+
 
 
 # -------------------- Section 2 ------------------------- #
@@ -55,6 +68,16 @@ print('Accessing and Modifying a List' '\n')
 #
 # WRITE CODE BELOW
 integers[2] = 44
+floats[4] = 18
+boolean_values[0] = -0
+animals[0] = 'cat'
+object [1] = 'box'
+print(integers)
+print(floats)
+print(boolean_values)
+print(animals)
+print(object)
+
 
 
 print('\n' 'Append, Insert, and Remove' '\n')
@@ -73,7 +96,15 @@ print('\n' 'Append, Insert, and Remove' '\n')
 #
 # WRITE CODE BELOW
 integers.append(25)
-
+floats.append(2.5)
+boolean_values.remove(False)
+animals.insert(0,'dog')
+object.insert(1,'van')
+print(integers)
+print(floats)
+print(boolean_values)
+print(animals)
+print(object)
 
 print('\n' 'List Concatenation' '\n')
 # 3. List Concatenation
@@ -115,11 +146,11 @@ print('Looping' '\n')
 #   An example has been shown below:
 #
 # WRITE CODE BELOW
-
+for i in range(listA)
 
 # -------------------- Section 4 ------------------------- #
 # ------------------ Comprehension ----------------------- #
-print('\n' '# -------------------- Section 3 ------------------------- #')
+print('\n' '# -------------------- Section 4 ------------------------- #')
 print('Dice - Statistics' '\n')
 
 # 1. Dice - Statistics
